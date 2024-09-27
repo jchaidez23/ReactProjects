@@ -5,9 +5,13 @@ import ReactDOM from "react-dom"
 function Header() {
     return (
         <header>
-            <nav>
-                <img src="./react-logo.png" width="40px"></img>
-                
+            <nav className="nav">
+                <img className="img" src="./react-logo.png" width="40px"></img>
+                <ul className="nav-tems">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
